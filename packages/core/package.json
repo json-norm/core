@@ -1,0 +1,39 @@
+{
+  "name": "json-norm",
+  "version": "0.0.0",
+  "description": "Data Schema.",
+  "keywords": [
+    "json",
+    "typescript"
+  ],
+  "author": "City <city@nanzc.com>",
+  "homepage": "https://github.com/json-norm/core",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/json-norm/core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/json-norm/core/issues"
+  },
+  "type": "module",
+  "files": [
+    "lib",
+    "dist",
+    "es"
+  ],
+  "main": "es/index.js",
+  "types": "es/index.d.ts",
+  "unpkg": "dist/index.min.js",
+  "scripts": {
+    "build": "lough-build",
+    "dev": "lough-build dev"
+  },
+  "devDependencies": {
+    "@lough/build-cli": "^0.1.1"
+  },
+  "license": "MIT",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  }
+}
